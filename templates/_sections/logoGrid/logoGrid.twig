@@ -1,0 +1,10 @@
+{% set logos = logos ??? [] %}
+<div class="s-logoGrid">
+    <div class="s-logoGrid__wrapper container">
+        {% for logo in logos %}
+            {% include "_components/image/image.twig" with {
+                image: logo,
+            } only %}
+        {% endfor %}
+    </div>
+</div>

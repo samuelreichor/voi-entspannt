@@ -1,0 +1,76 @@
+{% if contentQuery ??? null %}
+    {% set content = contentQuery.with([
+        'image:image',
+        'imageAndText:image',
+        'logoGallery:logos',
+        'fourColumn:contents',
+        'fourColumn:contents.icon',
+    ]).all() %}
+
+    <div class="s-contentBuilder">
+        {% for matrixBlock in content %}
+            {% switch matrixBlock.type %}
+
+                {# -- Text Section -- #}
+                {% case 'text' %}
+                    {% include "_sections/text/text.twig" with {
+                        text: matrixBlock.text,
+                    } only %}
+
+                {# -- Image Section -- #}
+                {% case 'image' %}
+                    {% include "_sections/image/image.twig" with {
+                        image: matrixBlock.image[0],
+                    } only %}
+
+                {# -- Image and Text Section -- #}
+                {% case 'imageAndText' %}
+                    {% include "_sections/imageAndText/imageAndText.twig" with {
+                        image: matrixBlock.image[0],
+                        text: matrixBlock.text,
+                        switched: matrixBlock.switched,
+                        size: matrixBlock.size,
+                    } only %}
+
+                {# -- Step Slider Section -- #}
+                {% case 'stepSlider' %}
+                    {% include "_sections/stepSlider/stepSlider.twig" with {
+                        headline: matrixBlock.headline ??? '',
+                        steps: matrixBlock.slides ??? [],
+                        link: matrixBlock.slideLink ??? null,
+                    } only %}
+
+                {# -- Four Column Section -- #}
+                {% case 'fourColumn' %}
+                    {% include "_sections/fourColumn/fourColumn.twig" with {
+                        columns: matrixBlock.contents|map(column => {
+                            "icon": column.icon[0],
+                            "headline": column.headline,
+                            "text": column.text,
+                        }) ??? [],
+                    } only %}
+
+                {# -- Logo Gallery Section -- #}
+                {% case 'logoGallery' %}
+                    {% include "_sections/logoGallery/logoGallery.twig" with {
+                        logos: matrixBlock.logos ??? [],
+                    } only %}
+
+                {# -- Embed Section -- #}
+                {% case 'embed' %}
+                    {% include "_sections/embed/embed.twig" with {
+                        code: matrixBlock.code ??? [],
+                    } only %}
+
+                {# -- Spacing -- #}
+                {% case 'spacing' %}
+                    <div class="s-contentBuilder__spacing s-contentBuilder__spacing--{{ matrixBlock.size }}"></div>
+
+                {# -- Spacing -- #}
+                {% case 'anker' %}
+                    <a class="s-contentBuilder__anker" id="{{ matrixBlock.anker }}"></a>
+
+            {% endswitch %}
+        {% endfor %}
+    </div>
+{% endif %}

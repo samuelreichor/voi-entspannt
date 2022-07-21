@@ -1,0 +1,72 @@
+field: dcc9f2a5-4960-4468-9ca0-ed97af8aabd0 # Nav Link Footer
+fieldLayouts:
+  4cb70e23-9ac5-440e-85ff-61858805333e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 93f562ec-f7bd-4dcb-85c7-20f346147cae # Link Text Footer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f20e251a-1359-4e87-8868-4cf0e570f518 # link Destination Footer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  93f562ec-f7bd-4dcb-85c7-20f346147cae: # Link Text Footer
+    columnSuffix: nrdnyegy
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkTextFooter
+    instructions: ''
+    name: 'Link Text Footer'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f20e251a-1359-4e87-8868-4cf0e570f518: # link Destination Footer
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkDestinationFooter
+    instructions: ''
+    name: 'link Destination Footer'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: linkFooter
+name: 'Link Footer'
+sortOrder: 1

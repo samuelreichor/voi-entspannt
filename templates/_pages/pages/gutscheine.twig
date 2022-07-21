@@ -1,0 +1,24 @@
+{% extends "_layouts/gutschein-layout.twig" %}
+{% set pageTitle = entry.heroTitle %}
+{% block content %}
+<article class="section-general">
+
+
+  <section class="gutschein-section">
+    <div class="gutschein-wrapper gutschein-subpage">
+        <div class="gutschein-content">
+            <div class="gutschein-bild">
+              {% set imageGutschein = gutscheine.gutscheinImage.one() %}
+                <img src="{{imageGutschein.getUrl('gutscheinImg')}}" alt="{{imageGutschein.title}}">
+            </div>
+        <div class="gutschein-text">
+            <div class="text-content">
+                {{gutscheine.gutscheinText}}
+            </div>
+  
+        </div>    
+        </div>
+    </div>
+  </section>
+  </article>
+{% endblock %}

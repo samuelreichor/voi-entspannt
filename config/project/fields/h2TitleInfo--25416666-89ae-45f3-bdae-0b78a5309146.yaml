@@ -1,0 +1,19 @@
+columnSuffix: blibblco
+contentColumnType: text
+fieldGroup: 1e51ec97-9959-4860-8d78-a37833c6a526 # Common
+handle: h2TitleInfo
+instructions: ''
+name: 'h2 Title Info Section'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,207 @@
+{% extends "_layouts/default.twig" %}
+
+
+
+{% block content %}
+<body class="home-page">
+
+  
+      {% set image = entry.heroImage.one() %}
+      <section class="hero" style="background-image: url('{{ image.getUrl( 'hero' ) }}')" >
+      
+        <div class="left-column content-hero">
+          <h1 class="h1-styling">{{entry.heroTitle}}</h1>
+        </div>
+        <div class="right-column content-hero"></div>
+      </section>
+      
+
+     
+    
+
+  <!-- Swiper 1 -->
+  <div class="section-slider1-wrapper">
+    <h2 class="slider-info-h2 h2">
+      {{entry.h2TitleInfo}}
+    </h2>
+<div class="swiper swiper1">
+    <div class="slide-content">
+        <div class="swiper-wrapper">
+
+          {% for infoCard in entry.infoCards.all() %}
+          {% set infoImage = infoCard.infoImage.one() %} 
+
+        <div class="swiper-slide card">
+          <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                  <img src="{{ infoImage.getUrl('infoSlider')}}" alt="{{infoCard.infoHeadline}}" class="card-img">
+              </div>
+          </div>
+
+          <div class="card-content">
+              <h2 class="name">{{infoCard.infoHeadline}}</h2>
+              <p class="description">{{infoCard.infoDescription}}</p>
+            
+              
+          </div>
+      </div>
+      
+      {% endfor %}
+        </div>
+    </div>
+    
+    <!-- Add Pagination -->
+    <div class="swiper-button-next swiper-button-next1 swiper1-btn"></div>
+    <div class="swiper-button-prev swiper-button-prev1 swiper1-btn"></div>
+    <div class="swiper-pagination swiper-pagination1"></div>
+</div>
+<a href="{{siteUrl}}leistungen" class="btn btn-leistungen">
+  <button href="{{siteUrl}}leistungen" class="btn-filled-sm">Mehr Erfahren</button>
+</a>
+</div>
+
+
+
+
+    <section class="price-section">
+    
+      <div class="price-wrapper">
+              <h2 class="price-title h2">
+                {{entry.h2TitlePrice}}
+              </h2>
+              <div class="price-cards">
+                {% for price in entry.prices.all() %}
+                
+                  <div class="flex-items">
+                      <div class="price">
+                          <p class="price-text"><span>€{{price.euronen}}</span>/{{price.stunden}}Min</p>
+                      <a href="{{siteUrl}}kontaktiere-mich" class="btn">
+                        <btn class="btn-filled">Kontaktiere mich</btn>
+                      </a>
+                      
+                      </div>
+                  </div>
+                  {% endfor %}  
+              </div> 
+
+              <div class="price-cards-mobile">
+                <div class="flex-items">
+                    <div class="price">
+                      {% for price in entry.prices.all() %}
+                        <p class="price-text"><span>€{{price.euronen}}</span>/{{price.stunden}}Min</p>
+                        {% endfor %}  
+                        <a href="{{siteUrl}}kontaktiere-mich" class="btn">
+                          <btn class="btn-filled">Kontaktiere mich</btn>
+                        </a>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="price-text-wrapper">
+                <h3>{{entry.h3TitlePrice}}</h3>    
+                     {{entry.richText}}
+              </div>
+
+
+           
+      </div>
+      
+    </section>
+
+      <section class="aboutme-section">
+        <div class="aboutme-wrapper">
+            <div class="aboutme-img">
+                <div class="mobile-h2-wrapper">
+                    <h2 class="abouth2-mobile">Über mich</h2>
+                </div>
+                
+                <div class="about-img-mobile">
+                  {% set imageAbout = entry.imageAbout.one() %}
+                    <img class="img-about" src="{{imageAbout.url }}" alt="{{imageAbout.title}}">
+                </div>
+                <div class="info-about-mobile">
+                    <h3 class="about-name">
+                        Christoph Reiter
+                    </h3>
+                    <div class="socialmedia-btn">
+                        <div class="icon">
+                            <a href="{{userInfo.facebookLink}}" target="_blank">
+                                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                            </a>
+                        </div>
+             
+                        <div class="icon">
+                            <a href="{{userInfo.instagramLink}}" target="_blank">
+                                <svg class="svg-icon-ig" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                            </a>
+                        </div>
+        
+                        
+                    </div>
+                </div>
+               
+            </div>
+            <div class="aboutme-content main-h2">
+              {{entry.richTextAbout}}
+              <div class="btn-centered">
+                <a href="{{siteUrl}}ueber-mich" class="btn">
+                  <btn class="btn-lined">Mehr über mich</btn>
+                </a>
+                    
+                  </div>
+            </div>
+        </div>
+        
+        </section>
+
+
+
+         <!-- Slideshow container -->
+
+      <!-- Swiper 2-->
+  <div class="swiper swiper2 swiper2-main">
+    <div class="swiper-wrapper">
+
+      {% for sliderText in entry.sliderTexts.all() %}
+      <div class="swiper-slide swipe2">
+        <div class="parent-text">
+            <div class="slider-content-text">
+                {{sliderText.sliderContent}}
+            </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-button-next swiper-button-next2 swiper2-btn"></div>
+    <div class="swiper-button-prev swiper-button-prev2 swiper2-btn"></div>
+    <div class="swiper-pagination swiper-pagination2"></div>
+  </div>
+
+<!--Gutschein Section-->
+    
+<section class="gutschein-section">
+  <div class="gutschein-wrapper">
+      <div class="gutschein-content">
+          <div class="gutschein-bild">
+            {% set imageGutschein = gutscheine.gutscheinImage.one() %}
+              <img src="{{imageGutschein.getUrl('gutscheinImg')}}" alt="{{imageGutschein.title}}">
+          </div>
+      <div class="gutschein-text">
+          <div class="text-content main-h2">
+              {{gutscheine.gutscheinText}}
+          </div>
+
+      </div>    
+      </div>
+  </div>
+</section>
+
+<!--Kontakt Section-->
+
+
+{% endblock %}

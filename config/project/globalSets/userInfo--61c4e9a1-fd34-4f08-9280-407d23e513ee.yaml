@@ -1,0 +1,79 @@
+fieldLayouts:
+  0a547d3c-74b4-41a8-8c15-39023a86c6af:
+    tabs:
+      -
+        elements:
+          -
+            heading: 'Texte für die Kontaktiere mich Section'
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: 05cf1190-eee5-446e-86fb-2f2803720b03 # Contact H2
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8258f0ad-064f-4205-918e-d5f606659a0e # Contact Text
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            heading: 'Kontakt Informationen'
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: 2043ed76-d48a-4911-ac89-b34387816ebb # Facebook Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 10beb2fb-9f4c-4f5a-8196-2f65fa1fbb8b # Instagram Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c5b7a7bd-25d9-46e8-aa20-0b2cbee36c42 # Youtube Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5cccf762-54f8-44cf-ad6e-b3504b30f9c2 # Email
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ce43a48b-9462-4aea-abc9-3c7cac31d01d # Telefonnummer
+            instructions: ''
+            label: ''
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Contact
+        sortOrder: 1
+handle: userInfo
+name: 'User Information'
+sortOrder: 3

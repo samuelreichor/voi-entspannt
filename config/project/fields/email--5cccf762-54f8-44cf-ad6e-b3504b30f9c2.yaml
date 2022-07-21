@@ -1,0 +1,12 @@
+columnSuffix: axytcaqa
+contentColumnType: string
+fieldGroup: 9eb431c5-7fe6-4c45-be5d-6c94ade7993e # Assets
+handle: email
+instructions: ''
+name: Email
+searchable: false
+settings:
+  placeholder: 'Ihre Email'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Email

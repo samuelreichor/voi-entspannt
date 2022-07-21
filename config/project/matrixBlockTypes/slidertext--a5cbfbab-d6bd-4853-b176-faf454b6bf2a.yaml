@@ -1,0 +1,50 @@
+field: 3c305284-1691-42f8-b66f-fe348952a2ab # Slider Texts
+fieldLayouts:
+  54386133-22ec-46fc-b5fb-a0fbc17edbc0:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 667df206-c61a-4eb6-8f2f-6f123144a644 # Slider Content
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  667df206-c61a-4eb6-8f2f-6f123144a644: # Slider Content
+    columnSuffix: zhfttumn
+    contentColumnType: text
+    fieldGroup: null
+    handle: sliderContent
+    instructions: ''
+    name: 'Slider Content'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: '1'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: slidertext
+name: SliderText
+sortOrder: 1

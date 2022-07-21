@@ -1,0 +1,113 @@
+field: d645fef7-04c9-4031-ab1b-44743af9f212 # Info Cards
+fieldLayouts:
+  248a08b7-04f3-4ed0-acec-762912224cea:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 509010ae-76d8-4d0a-ba38-9a5a004c6e8b # Info Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b821f21f-77d9-4f76-aafd-b3c5aed17a5c # Info Headline
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b421e9dd-d4d4-4736-8411-ce1963d348f7 # Info Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  509010ae-76d8-4d0a-ba38-9a5a004c6e8b: # Info Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: infoImage
+    instructions: ''
+    name: 'Info Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: 'Bild für die Info über Massage Arten hinzufügen'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  b421e9dd-d4d4-4736-8411-ce1963d348f7: # Info Description
+    columnSuffix: null
+    contentColumnType: string(1000)
+    fieldGroup: null
+    handle: infoDescription
+    instructions: ''
+    name: 'Info Description'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 250
+      code: ''
+      columnType: null
+      initialRows: ''
+      multiline: ''
+      placeholder: 'Beschreibung der Massageart'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b821f21f-77d9-4f76-aafd-b3c5aed17a5c: # Info Headline
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: infoHeadline
+    instructions: ''
+    name: 'Info Headline'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'Titel von der Massageart'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: infoCard
+name: 'Info Card'
+sortOrder: 1

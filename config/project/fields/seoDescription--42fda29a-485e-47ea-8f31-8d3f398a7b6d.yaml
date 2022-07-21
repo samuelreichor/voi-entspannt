@@ -1,0 +1,19 @@
+columnSuffix: yyusjxlw
+contentColumnType: string(680)
+fieldGroup: c50f1c8e-3b3c-429a-8e0d-ff677581fce0 # SEO
+handle: seoDescription
+instructions: ''
+name: 'seo Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 170
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

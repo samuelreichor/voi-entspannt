@@ -1,0 +1,122 @@
+field: 65c4e659-4d8f-4705-a2e9-46a81807c120 # Info Cards Mobile
+fieldLayouts:
+  45935bee-5d0e-4364-bbc9-e6e1d3815940:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: e7938175-a108-436a-9651-c3fc691e20cb # Info Card Mobile Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 998a4cee-1d0b-4b76-bbdc-e03d69e2d0c9 # Info Card Mobile h2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e4903fce-9829-467c-b5a0-534501cd79fb # Info Card Mobile Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  998a4cee-1d0b-4b76-bbdc-e03d69e2d0c9: # Info Card Mobile h2
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: infoCardMobileH2
+    instructions: ''
+    name: 'Info Card Mobile h2'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e4903fce-9829-467c-b5a0-534501cd79fb: # Info Card Mobile Description
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: infoCardMobileDescription
+    instructions: ''
+    name: 'Info Card Mobile Description'
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      cleanupHtml: true
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: ''
+      purifyHtml: '1'
+      redactorConfig: ''
+      removeEmptyTags: '1'
+      removeInlineStyles: '1'
+      removeNbsp: '1'
+      showHtmlButtonForNonAdmins: '1'
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  e7938175-a108-436a-9651-c3fc691e20cb: # Info Card Mobile Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: infoCardMobileImage
+    instructions: ''
+    name: 'Info Card Mobile Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: infoCardMobile
+name: 'Info Card Mobile'
+sortOrder: 1

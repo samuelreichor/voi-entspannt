@@ -1,0 +1,68 @@
+description: ''
+handle: editors
+name: Editors
+permissions:
+  - accesscp
+  - 'createentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'createentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'createentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'createfoldersinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'createfoldersinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'deleteentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'deleteentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'deleteentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'deletefilesandfoldersinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'deletefilesandfoldersinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'deletepeerentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'deletepeerentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'deletepeerentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'deletepeerentrydrafts:745244db-cd1b-4b14-ab0f-07d6ddcf070f' # Home
+  - 'deletepeerentrydrafts:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'deletepeerentrydrafts:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'deletepeerentrydrafts:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'deletepeerfilesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'deletepeerfilesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'editentries:1854f3be-cac9-430d-bde8-9093b969668c' # Errors
+  - 'editentries:745244db-cd1b-4b14-ab0f-07d6ddcf070f' # Home
+  - 'editentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'editentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'editentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'editimagesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'editimagesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'editpeerentries:1854f3be-cac9-430d-bde8-9093b969668c' # Errors
+  - 'editpeerentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'editpeerentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'editpeerentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'editpeerentrydrafts:1854f3be-cac9-430d-bde8-9093b969668c' # Errors
+  - 'editpeerentrydrafts:745244db-cd1b-4b14-ab0f-07d6ddcf070f' # Home
+  - 'editpeerentrydrafts:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'editpeerentrydrafts:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'editpeerentrydrafts:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'editpeerfilesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'editpeerfilesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'editpeerimagesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'editpeerimagesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'publishentries:1854f3be-cac9-430d-bde8-9093b969668c' # Errors
+  - 'publishentries:745244db-cd1b-4b14-ab0f-07d6ddcf070f' # Home
+  - 'publishentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'publishentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'publishentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'publishpeerentries:1854f3be-cac9-430d-bde8-9093b969668c' # Errors
+  - 'publishpeerentries:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'publishpeerentries:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'publishpeerentries:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'publishpeerentrydrafts:1854f3be-cac9-430d-bde8-9093b969668c' # Errors
+  - 'publishpeerentrydrafts:745244db-cd1b-4b14-ab0f-07d6ddcf070f' # Home
+  - 'publishpeerentrydrafts:a94c302a-1da9-4e98-96b1-36d23ce0235b'
+  - 'publishpeerentrydrafts:cc6d2bf8-1e58-42b4-a6fd-530931643cc5'
+  - 'publishpeerentrydrafts:dffb8692-e75f-4079-b9b6-00ffb0d73d37'
+  - 'replacefilesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'replacefilesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'replacepeerfilesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'replacepeerfilesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'saveassetinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'saveassetinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'viewpeerfilesinvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'viewpeerfilesinvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics
+  - 'viewvolume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  - 'viewvolume:c5b55746-9b95-40a4-9e04-178618e02cff' # Graphics

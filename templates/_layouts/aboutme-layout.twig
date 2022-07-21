@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+{% set pageTitle = entry.seoTitle %}
+    {% set pageDescription = entry.seoDescription %}
+
+    <html lang="{{ craft.app.language |slice(0,2) }}">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width,viewport-fit=cover">
+        <title>{{pageTitle}}</title>
+        <meta name="description" content="{{ pageDescription }}">
+        <link rel="icon" type="image/x-icon" href="{{siteUrl}}static/images/favicon/favicon.ico">
+        <link rel="canonical" href="https://www.voi-entspannt.at">
+        <link rel="stylesheet" href="https://use.typekit.net/mzj3rwx.css">
+        <link rel="stylesheet" href="{{siteUrl}}static/css/styles.css">
+      
+        {% include "_layouts/_partials/preconnects.twig" %}
+        {% include "_layouts/_partials/fonts.twig" %}
+{#        {% include "_layouts/_partials/critical-css.twig" %}#}
+        {% include "_layouts/_partials/favicon.twig" %}
+    </head>
+
+    <body>
+        {% include "_components/header/header.twig" only %}
+
+        <main>
+            {% block content %}
+            {% endblock %}
+          
+        </main>
+
+        {% include "_components/footer/footer.twig" only %}
+        <script src="{{ siteUrl }}static/js/navbar.js"></script>
+        {{ craft.vite.script("assets/js/app.js") }}
+    </body>
+</html>

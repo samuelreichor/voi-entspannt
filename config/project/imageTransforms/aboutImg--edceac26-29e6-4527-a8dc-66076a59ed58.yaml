@@ -1,0 +1,9 @@
+format: null
+handle: aboutImg
+height: 800
+interlace: none
+mode: crop
+name: 'About Img'
+position: center-center
+quality: null
+width: 950

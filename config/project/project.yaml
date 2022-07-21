@@ -1,0 +1,198 @@
+dateModified: 1658236057
+email:
+  fromEmail: sami.reichoer@gmail.com
+  fromName: $SITE_NAME
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1a680df0-fe66-4d73-b7f9-c9eda8c96f05: Size # Size
+    1ab1524a-50e1-4b29-8ce9-9a3391b6c52f: Email # Email
+    1bf39833-e1d7-47ad-8cec-0e5f634ecfeb: 'Gutschein Image' # Gutschein Image
+    1e51ec97-9959-4860-8d78-a37833c6a526: Common # Common
+    2a4797dc-df0a-4834-ab6d-76f4c86182e6: Price # Price
+    2c9430af-5272-4806-a33f-9364d065ac83: Default # Default
+    3a741c4b-6ec9-42e1-8baf-16ee0d35e092: 'Contact Form' # Contact Form
+    3bace5b2-b349-43e4-8abb-441e7be0b37a: 'Info Card Mobile' # Info Card Mobile
+    3bd74465-5f86-4a4e-8e11-284e7c2e92eb: Image # Image
+    3c305284-1691-42f8-b66f-fe348952a2ab: 'Slider Texts' # Slider Texts
+    4ba32469-66ba-4233-8faf-e5f819134881: Headline # Headline
+    4e364be5-bc5a-4257-8479-5e7685e6cd9d: Euronen # Euronen
+    5a1f7399-c9af-4cf1-a877-b9918fabb768: 'Gutschein Img' # Gutschein Img
+    5ad60c02-6d3c-4b01-8a1f-174445a272ce: Telefonnummer # Telefonnummer
+    5cccf762-54f8-44cf-ad6e-b3504b30f9c2: Email # Email
+    5cce6b80-a35c-4207-82e0-3940c9091376: Images # Images
+    05cf1190-eee5-446e-86fb-2f2803720b03: 'Contact H2' # Contact H2
+    5f1f6003-d657-40fc-9ea8-c3dc936958cd: 'Slider Content' # Slider Content
+    6d9587dd-3c88-43bd-a6d1-a406042f785c: Link # Link
+    6f19a805-c660-4a23-98bc-883a1772b93c: 'Content Image' # Content Image
+    7e3b3ae6-f422-47dc-96c7-602eef92f190: 'Gutschein Text' # Gutschein Text
+    08f7de84-afcb-4315-8282-e7f3e12eb959: Gutscheine # Gutscheine
+    8fb0e979-e646-40cc-afe3-721a8cf8d77e: 'Rich Text' # Rich Text
+    9b8f35b7-0309-476b-9ca6-654d6d620e69: 'Public Schema' # Public Schema
+    9eb431c5-7fe6-4c45-be5d-6c94ade7993e: Assets # Assets
+    09faf330-8a6d-43fb-8902-634963e2b596: Cards # Cards
+    10beb2fb-9f4c-4f5a-8196-2f65fa1fbb8b: 'Instagram Link' # Instagram Link
+    17c50b66-f3d0-4d17-a8f1-db8e8761e219: 'h2 Title Price Section' # h2 Title Price Section
+    23c98b12-8a47-49e0-bf93-38f9007548bd: 'Meine Leistungen' # Meine Leistungen
+    42fda29a-485e-47ea-8f31-8d3f398a7b6d: 'seo Description' # seo Description
+    61c4e9a1-fd34-4f08-9280-407d23e513ee: 'User Information' # User Information
+    65c4e659-4d8f-4705-a2e9-46a81807c120: 'Info Cards Mobile' # Info Cards Mobile
+    67ea3ad6-5894-4622-8a04-84e1cf8ea798: Prices # Prices
+    78eb4c24-9ee0-4fe1-85b6-902352ffc6af: Code # Code
+    88d123f3-1fe8-4858-b7f7-39ad8b15a5fc: Impressum # Impressum
+    91b13390-ca65-49a0-9d7f-9bd2795e15d8: Datenschutz # Datenschutz
+    93f562ec-f7bd-4dcb-85c7-20f346147cae: 'Link Text Footer' # Link Text Footer
+    114adcdf-ab31-4d8f-8fb5-add7702e476a: Icon # Icon
+    329d3f94-a4e8-4c89-9242-99ad3287d1a5: Navigation # Navigation
+    338f718b-7f68-4c2c-9eac-e8898e37b8a3: Footer # Footer
+    572db231-fb3a-4729-82dd-898c7a612e53: 'Rich Text About Section' # Rich Text About Section
+    667df206-c61a-4eb6-8f2f-6f123144a644: 'Slider Content' # Slider Content
+    683a4e58-0d04-4452-9b24-4f228753d538: Text # Text
+    695d690f-eac6-448e-b32a-399a64f36c2d: stunden # stunden
+    695fdc9b-7cb6-4172-ad4a-2194854c587e: Text # Text
+    709d1f4c-cde7-4279-b196-7dbd0d3c1d4a: HeroSection # HeroSection
+    722da717-5c9d-4ac6-bfa0-08134732dc4c: Header # Header
+    807abb3e-a1e9-4460-8230-38bae828aa37: Titel # Titel
+    866a0917-591e-4c6c-8e26-b548063bbc13: Info-Slider # Info-Slider
+    998a4cee-1d0b-4b76-bbdc-e03d69e2d0c9: 'Info Card Mobile h2' # Info Card Mobile h2
+    1854f3be-cac9-430d-bde8-9093b969668c: Errors # Errors
+    2043ed76-d48a-4911-ac89-b34387816ebb: 'Facebook Link' # Facebook Link
+    3646d014-05d7-44d6-ac01-1930aade6203: Text # Text
+    5502ecc3-271c-47e8-99ff-d06fe1a603a2: Editors # Editors
+    5725c7ca-a4df-44ff-94f0-7f649c96ded4: 'Meine Leistungen' # Meine Leistungen
+    6064b14c-104b-493b-893f-55f095596408: 'h3 Title Price Section' # h3 Title Price Section
+    7662cd3a-0217-4164-bff5-a804bce29648: switched # switched
+    8258f0ad-064f-4205-918e-d5f606659a0e: 'Contact Text' # Contact Text
+    8561ac4c-c848-4660-a546-010bd2e8d9a7: 'Hero Title' # Hero Title
+    9353bfe0-77ec-4c96-afc1-3cc85bc6959b: 'Link Text' # Link Text
+    268380d1-da19-45ad-af3e-96da19e5ba85: Datenschutz # Datenschutz
+    509010ae-76d8-4d0a-ba38-9a5a004c6e8b: 'Info Image' # Info Image
+    745244db-cd1b-4b14-ab0f-07d6ddcf070f: Home # Home
+    8352538e-0d17-48be-bf6d-c03a439cb40a: 'Template Images' # Template Images
+    25416666-89ae-45f3-bdae-0b78a5309146: 'h2 Title Info Section' # h2 Title Info Section
+    a1d469ad-3f70-49ce-aa72-447b35b47384: 'Image About' # Image About
+    a5cbfbab-d6bd-4853-b176-faf454b6bf2a: SliderText # SliderText
+    a667ccc8-419c-4833-aa0f-d8e3fb653ad2: 'Aboutme Page' # Aboutme Page
+    af2f78ad-694f-4f2c-9c6f-a24a5297b71e: Gutscheine # Gutscheine
+    af236ed7-2045-4ee4-b6c9-fa700fec2aae: 'seo Title' # seo Title
+    b421e9dd-d4d4-4736-8411-ce1963d348f7: 'Info Description' # Info Description
+    b821f21f-77d9-4f76-aafd-b3c5aed17a5c: 'Info Headline' # Info Headline
+    bd67bf27-4250-46ec-86a0-f94172ca1cd8: 'Aboutme Page' # Aboutme Page
+    be62c9df-631a-4395-99fc-94e2eda37b7b: ContentBuilder # ContentBuilder
+    bf6b89d9-e068-4a04-9f43-1a7a2d42bd79: 'Link Destination' # Link Destination
+    bfd38180-5ad7-4644-a0a0-598e5dbed5fa: Image # Image
+    c5b7a7bd-25d9-46e8-aa20-0b2cbee36c42: 'Youtube Link' # Youtube Link
+    c5b55746-9b95-40a4-9e04-178618e02cff: Graphics # Graphics
+    c50f1c8e-3b3c-429a-8e0d-ff677581fce0: SEO # SEO
+    c93f785e-a2de-4be1-b982-2b15a9ecfb52: Home # Home
+    cc7d01e7-6d4f-4329-8f74-68b700b031d0: 'Gutschein Section' # Gutschein Section
+    ce43a48b-9462-4aea-abc9-3c7cac31d01d: Telefonnummer # Telefonnummer
+    d0b81f54-9f0b-47ff-8b70-ede217a82e9d: voi-entspannt # voi-entspannt
+    d0345c1f-4c41-48f5-9235-31cd644f6b30: Hero # Hero
+    d9acb357-0bae-493c-920c-a7a137bc18db: Kontakt # Kontakt
+    d9f25314-9fad-4839-b8bb-8159c7bda381: 'Link Footer' # Link Footer
+    d99f9653-f764-42e2-8722-2d17f41c2367: Size # Size
+    d645fef7-04c9-4031-ab1b-44743af9f212: 'Info Cards' # Info Cards
+    d955bedd-4720-4536-84d6-fa27e730d27a: Default # Default
+    dcc9f2a5-4960-4468-9ca0-ed97af8aabd0: 'Nav Link Footer' # Nav Link Footer
+    df95f934-8e81-47f2-9a8e-6e3afefb968c: Gutscheine # Gutscheine
+    e5fdc1b5-cf05-4bb5-b0e7-fde823b6baa0: Destination # Destination
+    e4414be5-ec53-440a-b818-1a381e65c433: 'Nav Link' # Nav Link
+    e4903fce-9829-467c-b5a0-534501cd79fb: 'Info Card Mobile Description' # Info Card Mobile Description
+    e9673d58-ed0a-4be7-bb0f-0f4654358814: Kontakt # Kontakt
+    e983668e-da41-4c60-8f3f-1062d10a2093: 'Info Card' # Info Card
+    e7938175-a108-436a-9651-c3fc691e20cb: 'Info Card Mobile Image' # Info Card Mobile Image
+    edceac26-29e6-4527-a8dc-66076a59ed58: 'About Img' # About Img
+    f20e251a-1359-4e87-8868-4cf0e570f518: 'link Destination Footer' # link Destination Footer
+    f98ce2cd-2b94-426d-91e4-8718a72c9953: 'Hero Image' # Hero Image
+    f237f023-4145-4676-8d9f-09615487f06e: Impressum # Impressum
+    f935160c-f13f-4345-a1b2-964ccaf23ef6: 'Slider Content' # Slider Content
+    f8880613-ce1c-42ee-adaa-3a49591c464f: Logos # Logos
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'Mitteilung von'
+      prependSubject: 'New message from voi-entspannt'
+      successFlashMessage: 'Ihre Nachricht wurde versendet.'
+      toEmail: sami.reichoer@gmail.com
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      allow: 'Allow cookies'
+      async_js: ''
+      auto_inject: '1'
+      decline: Decline
+      defer_js: ''
+      disable_in_live_preview: ''
+      dismiss: 'Got it!'
+      dismiss_on_scroll: ''
+      dismiss_on_timeout: ''
+      excluded_categories: null
+      excluded_entry_types: null
+      expiry_days: '365'
+      honour_do_not_track_header: ''
+      layout: block
+      learn: 'Learn More'
+      learn_more_link: 'https://voi-entspannt.at/datenschutz'
+      message: 'Diese Internetseite verwendet Cookies und Google Analytics für die Analyse und Statistik.'
+      palette: default
+      palette_banner: '000'
+      palette_banner_text: ffffff
+      palette_button: 37BFED
+      palette_button_text: fff
+      palette_left_button_bg: f8e71c
+      palette_left_button_text: '000000'
+      palette_link: ffffff
+      position: top
+      preload_css: '1'
+      revokable: ''
+      secure_only: ''
+      target: _blank
+      type: info
+  cp-css:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: $PLUGIN_SEOMATIC
+    schemaVersion: 3.0.11
+  smith:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.2.1
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: pro
+  live: true
+  name: $SITE_NAME
+  retryDuration: null
+  schemaVersion: 3.7.8
+  timeZone: Europe/Vienna

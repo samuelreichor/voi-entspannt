@@ -1,0 +1,9 @@
+{% if image ??? null %}
+    <div class="s-image">
+        {% include "_components/image/image.twig" with {
+            image: image,
+            objectFit: 'cover',
+            transform: 'auto',
+        } only %}
+    </div>
+{% endif %}

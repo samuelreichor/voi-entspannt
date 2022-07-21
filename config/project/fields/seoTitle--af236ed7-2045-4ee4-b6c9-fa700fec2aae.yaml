@@ -1,0 +1,19 @@
+columnSuffix: cncudhre
+contentColumnType: string(320)
+fieldGroup: c50f1c8e-3b3c-429a-8e0d-ff677581fce0 # SEO
+handle: seoTitle
+instructions: ''
+name: 'seo Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 80
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Der Text der im Browser als Titel angezeigt wird'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

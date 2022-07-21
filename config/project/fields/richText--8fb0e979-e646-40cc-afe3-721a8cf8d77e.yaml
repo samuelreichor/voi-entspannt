@@ -1,0 +1,29 @@
+columnSuffix: gjkonjtl
+contentColumnType: text
+fieldGroup: 1e51ec97-9959-4860-8d78-a37833c6a526 # Common
+handle: richText
+instructions: ''
+name: 'Rich Text'
+searchable: false
+settings:
+  availableTransforms:
+    - 6f19a805-c660-4a23-98bc-883a1772b93c # Content Image
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: ''
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

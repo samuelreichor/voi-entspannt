@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: AboutmePage
+name: 'Aboutme Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primäre eintrag Seite'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d0b81f54-9f0b-47ff-8b70-ede217a82e9d: # voi-entspannt
+    enabledByDefault: true
+    hasUrls: true
+    template: _pages/pages/aboutme.twig
+    uriFormat: ueber-mich
+type: single

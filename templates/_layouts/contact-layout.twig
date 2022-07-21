@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    {% set pageTitle = entry.seoTitle %}
+    {% set pageDescription = entry.seoDescription %}
+
+    <html lang="{{ craft.app.language |slice(0,2) }}">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width,viewport-fit=cover">
+        <link rel="stylesheet" href="https://use.typekit.net/mzj3rwx.css">
+        <link rel="stylesheet" href="{{siteUrl}}static/css/styles.css">
+        <title>{{pageTitle}}</title>
+        <meta name="description" content="{{ pageDescription }}">
+        <link rel="canonical" href="https://www.voi-entspannt.at">
+        <link rel="icon" type="image/x-icon" href="{{siteUrl}}static/images/favicon/favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('user_4qCEPNJsuE6MTOkr5IRBD');
+            })();
+        </script>
+        {% include "_layouts/_partials/preconnects.twig" %}
+        {% include "_layouts/_partials/fonts.twig" %}
+{#        {% include "_layouts/_partials/critical-css.twig" %}#}
+        {% include "_layouts/_partials/favicon.twig" %}
+    </head>
+
+    <body>
+        {% include "_components/header/header.twig" only %}
+
+        <main>
+            {% block content %}
+            {% endblock %}
+            {% include "_sections/contact/form.twig" with {
+                contactTitle: userInfo.contactH2,
+                text: userInfo.contactText,
+                instaLink: userInfo.instagramLink,
+                ytLink: userInfo.youtubeLink,
+                fbLink: userInfo.facebookLink,
+            } %}
+           
+        </main>
+
+        {% include "_components/footer/footer.twig" only %}
+        <script src="{{ siteUrl }}static/js/navbar.js"></script>
+        <script src="{{ siteUrl }}static/js/contact.js"></script>
+        {{ craft.vite.script("assets/js/app.js") }}
+    </body>
+</html>

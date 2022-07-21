@@ -1,0 +1,54 @@
+.s-hero {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  margin-bottom: 10rem;
+
+  .c-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .s-hero__fullHeightWrapper {
+    height: 100%;
+  }
+
+  .s-hero__content {
+    @include col-padding();
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 5vh;
+
+    @include media('>=m') {
+      @include col(6, 12);
+      padding-bottom: 15vh;
+    }
+  }
+
+  h1 {
+    @include ms(5);
+    color: var(--c-white);
+
+    @include media('>=m') {
+      @include ms(7);
+    }
+  }
+
+  .s-hero__icon {
+    width: 64px;
+    height: 64px;
+    margin-top: 4rem;
+    cursor: pointer;
+  }
+
+  .s-hero__anker {
+    display: block;
+    position: relative;
+    top: calc(var(--s-headerHeightSmall) * -1);
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 329d3f94-a4e8-4c89-9242-99ad3287d1a5 # Navigation
+handle: navLinkFooter
+instructions: ''
+name: 'Nav Link Footer'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_navlinkfooter}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

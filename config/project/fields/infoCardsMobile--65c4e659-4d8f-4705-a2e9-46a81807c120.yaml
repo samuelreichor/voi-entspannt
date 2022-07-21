@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 09faf330-8a6d-43fb-8902-634963e2b596 # Cards
+handle: infoCardsMobile
+instructions: ''
+name: 'Info Cards Mobile'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_infocardsmobile}}'
+  maxBlocks: '1'
+  minBlocks: '1'
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

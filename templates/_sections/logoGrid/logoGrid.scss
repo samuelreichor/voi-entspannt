@@ -1,0 +1,29 @@
+.s-logoGrid {
+  background-color: var(--c-gray-01);
+  padding: 5rem 0 4.5rem;
+
+  .s-logoGrid__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .c-image {
+    width: calc((100% - 3rem) / 2);
+    margin-bottom: 1.5rem;
+
+    @include media('<m') {
+      &:not(:nth-child(2n)) {
+        margin-right: 3rem;
+      }
+    }
+
+    @include media('>=m') {
+      width: calc((100% - 4 * 3rem) / 5);
+
+      &:not(:nth-child(5n)) {
+        margin-right: 3rem;
+      }
+    }
+  }
+}

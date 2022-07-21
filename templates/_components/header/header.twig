@@ -1,0 +1,25 @@
+<header class="header scrolling-active">
+  <nav class="navbar">
+    <a href="{{siteUrl}}" class="logo">
+        <img src="{{siteUrl}}static/images/logo.svg" alt="voi-entspannt logo" height="70">
+    </a>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        {% for link in header.navLink.all() %}
+        {% set destination = link.linkDestination.one() %}
+        {% set activeLink = craft.app.request.segments|first == destination.uri %}
+        <li>
+          <a href="{{destination.url}}" class="nav-link {% if activeLink %}  active {% endif %}">{{link.linkText}}</a>
+        </li>
+       
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</header>
+

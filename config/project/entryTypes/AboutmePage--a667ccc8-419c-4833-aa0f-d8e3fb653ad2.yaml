@@ -1,0 +1,87 @@
+fieldLayouts:
+  e9a4a3af-4496-4cbd-8cc6-bea0faa230ef:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8561ac4c-c848-4660-a546-010bd2e8d9a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f98ce2cd-2b94-426d-91e4-8718a72c9953 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8fb0e979-e646-40cc-afe3-721a8cf8d77e # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Inhalt
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: af236ed7-2045-4ee4-b6c9-fa700fec2aae # seo Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 42fda29a-485e-47ea-8f31-8d3f398a7b6d # seo Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: SEO
+        sortOrder: 2
+handle: AboutmePage
+hasTitleField: false
+name: 'Aboutme Page'
+section: bd67bf27-4250-46ec-86a0-f94172ca1cd8 # Aboutme Page
+sortOrder: 1
+titleFormat: 'Über mich'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

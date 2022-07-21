@@ -1,0 +1,19 @@
+columnSuffix: sctkoeyp
+contentColumnType: text
+fieldGroup: 3a741c4b-6ec9-42e1-8baf-16ee0d35e092 # Contact Form
+handle: contactH2
+instructions: ''
+name: 'Contact H2'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Hier kommt die Überschrift vom Kontakt Feld hin'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

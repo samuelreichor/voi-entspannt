@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 1
+template: _pages/pages/aboutme.twig
+uriParts:
+  1:
+    - slug
+    - '[^\/]+'
+  2: aboutme/
+uriPattern: '<slug:[^\/]+>aboutme/'

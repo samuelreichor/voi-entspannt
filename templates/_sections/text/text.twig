@@ -1,0 +1,5 @@
+{% if text ??? null %}
+    <div class="s-text container">
+        {% include "_components/text/text.twig" with { text: text } only %}
+    </div>
+{% endif %}

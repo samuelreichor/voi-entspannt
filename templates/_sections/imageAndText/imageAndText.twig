@@ -1,0 +1,14 @@
+{% set switched = switched ??? false %}
+{% set size = size ??? '' %}
+
+<div class="s-imageAndText s-imageAndText--{{ size }} {% if switched %}s-imageAndText--switched{% endif %} container">
+    <div class="s-imageAndText__content row">
+        {% include "_components/image/image.twig" with {
+            image: image ??? null,
+            caption: image.caption ??? null,
+            objectFit: 'cover',
+            transform: 'square',
+        } only %}
+        {% include "_components/text/text.twig" with { text: text } only %}
+    </div>
+</div>

@@ -1,0 +1,200 @@
+fieldLayouts:
+  73bdaee5-80f1-4c84-96f9-a3978531ed64:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            heading: Hero
+            type: craft\fieldlayoutelements\Heading
+          -
+            fieldUid: 8561ac4c-c848-4660-a546-010bd2e8d9a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f98ce2cd-2b94-426d-91e4-8718a72c9953 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Hero Section'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 25416666-89ae-45f3-bdae-0b78a5309146 # h2 Title Info Section
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d645fef7-04c9-4031-ab1b-44743af9f212 # Info Cards
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Info Section'
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 17c50b66-f3d0-4d17-a8f1-db8e8761e219 # h2 Title Price Section
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 67ea3ad6-5894-4622-8a04-84e1cf8ea798 # Prices
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6064b14c-104b-493b-893f-55f095596408 # h3 Title Price Section
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8fb0e979-e646-40cc-afe3-721a8cf8d77e # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Price Section'
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: a1d469ad-3f70-49ce-aa72-447b35b47384 # Image About
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 572db231-fb3a-4729-82dd-898c7a612e53 # Rich Text About Section
+            instructions: ''
+            label: 'Text About Section'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'About Section'
+        sortOrder: 4
+      -
+        elements:
+          -
+            fieldUid: 3c305284-1691-42f8-b66f-fe348952a2ab # Slider Texts
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Testimonials
+        sortOrder: 5
+      -
+        elements:
+          -
+            fieldUid: 1bf39833-e1d7-47ad-8cec-0e5f634ecfeb # Gutschein Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7e3b3ae6-f422-47dc-96c7-602eef92f190 # Gutschein Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Gutschein Section'
+        sortOrder: 6
+      -
+        elements:
+          -
+            fieldUid: af236ed7-2045-4ee4-b6c9-fa700fec2aae # seo Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 42fda29a-485e-47ea-8f31-8d3f398a7b6d # seo Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: SEO
+        sortOrder: 7
+handle: home
+hasTitleField: false
+name: Home
+section: 745244db-cd1b-4b14-ab0f-07d6ddcf070f # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

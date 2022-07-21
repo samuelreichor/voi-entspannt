@@ -1,0 +1,70 @@
+field: 67ea3ad6-5894-4622-8a04-84e1cf8ea798 # Prices
+fieldLayouts:
+  89cfcd6a-6f02-42e7-87e4-f651e0277ff5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4e364be5-bc5a-4257-8479-5e7685e6cd9d # Euronen
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 695d690f-eac6-448e-b32a-399a64f36c2d # stunden
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4e364be5-bc5a-4257-8479-5e7685e6cd9d: # Euronen
+    columnSuffix: zmzwgtqq
+    contentColumnType: string(40)
+    fieldGroup: null
+    handle: euronen
+    instructions: ''
+    name: Euronen
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 10
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'Preis für eine Einheit'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  695d690f-eac6-448e-b32a-399a64f36c2d: # stunden
+    columnSuffix: zcroapgg
+    contentColumnType: string(20)
+    fieldGroup: null
+    handle: stunden
+    instructions: ''
+    name: stunden
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: 5
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'Dauer der Einheit (in min)'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: price
+name: Price
+sortOrder: 1

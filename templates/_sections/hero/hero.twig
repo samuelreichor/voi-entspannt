@@ -1,0 +1,18 @@
+<div class="s-hero">
+    {% include "_components/image/image.twig" with {
+        image: image ??? null,
+        objectFit: 'cover',
+        transform: 'auto',
+    } only %}
+    <div class="s-hero__fullHeightWrapper container">
+        <div class="s-hero__fullHeightWrapper row">
+            <div class="s-hero__content">
+                <h1 class="super">{{ (text ??? '')|raw }}</h1>
+                <a href="#heroAnker">
+                    <img src="/dist/images/svg/scroll-arrow.svg" class="s-hero__icon" alt="Pfeil nach unten">
+                </a>
+            </div>
+        </div>
+    </div>
+    <a class="s-hero__anker" id="heroAnker" aria-label="Zum nächsten Abschnitt"></a>
+</div>

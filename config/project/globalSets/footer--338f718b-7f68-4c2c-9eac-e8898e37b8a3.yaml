@@ -1,0 +1,32 @@
+fieldLayouts:
+  d15a50a6-3900-4c12-85a1-896408687ab5:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: e4414be5-ec53-440a-b818-1a381e65c433 # Nav Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Important Links'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: dcc9f2a5-4960-4468-9ca0-ed97af8aabd0 # Nav Link Footer
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Boring Links'
+        sortOrder: 2
+handle: footer
+name: Footer
+sortOrder: 2

@@ -1,0 +1,15 @@
+columnSuffix: awuodgok
+contentColumnType: string(255)
+fieldGroup: 3a741c4b-6ec9-42e1-8baf-16ee0d35e092 # Contact Form
+handle: facebookLink
+instructions: ''
+name: 'Facebook Link'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

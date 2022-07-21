@@ -1,0 +1,21 @@
+.s-contentBuilder {
+  .s-contentBuilder__spacing {
+    height: 9rem;
+  }
+
+  .s-contentBuilder__spacing--size-2rem {
+    height: 2rem;
+  }
+
+  .s-contentBuilder__anker {
+    display: block;
+    position: relative;
+    top: calc((9rem + var(--s-headerHeightSmall)) * -1);
+    visibility: hidden;
+  }
+
+  & > *:last-child {
+    padding-bottom: calc(4.5rem + var(--s-footerHeight));
+    margin-bottom: calc(var(--s-footerHeight) * -1);
+  }
+}

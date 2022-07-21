@@ -1,0 +1,26 @@
+{% extends "_layouts/aboutme-layout.twig" %}
+{% set pageTitle = entry.heroTitle %}
+{% block content %}
+<article class="section-general">
+
+
+  {% set image = entry.heroImage.one() %}
+  <section class="hero" style="background-image: url('{{ image.getUrl( 'hero' ) }}')" >
+  
+    <div class="left-column content-hero">
+      <h1 class="h1-styling">{{entry.heroTitle}}</h1>
+    </div>
+    <div class="right-column content-hero"></div>
+  </section>
+  
+    <div class="general-wrapper">
+
+      
+
+      <div class="content-general">
+        {{entry.richText}}
+      </div>
+        
+    </div>
+  </article>
+{% endblock %}

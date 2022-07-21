@@ -1,0 +1,19 @@
+columnSuffix: temiowxg
+contentColumnType: text
+fieldGroup: 709d1f4c-cde7-4279-b196-7dbd0d3c1d4a # HeroSection
+handle: heroTitle
+instructions: ''
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

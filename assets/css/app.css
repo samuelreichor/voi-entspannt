@@ -1,0 +1,27 @@
+/*
+ |--------------------------------------------------------------------------
+ |  The entry point for the css.
+ |--------------------------------------------------------------------------
+ */
+
+@import 'tailwindcss/base';
+
+/* Base Styling */
+@import './base/global.pcss';
+@import './base/headings.pcss';
+@import './base/modern-css-reset.pcss';
+
+@import 'tailwindcss/components';
+
+
+      
+
+/* Sections */
+
+
+/* Pages */
+
+
+@import 'tailwindcss/utilities';
+
+/* Vendors */

@@ -1,0 +1,33 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 1e51ec97-9959-4860-8d78-a37833c6a526 # Common
+handle: imageAbout
+instructions: ''
+name: 'Image About'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: ''
+  selectionLabel: 'Hier ein Bild von Ihnen'
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets
