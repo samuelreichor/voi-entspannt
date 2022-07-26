@@ -19,7 +19,7 @@ module.exports = {
             whitelist: [
                 'web/static/css/*.css',
                 './assets/css/*.css',
-                './assets/css/*.pcss',
+                './assets/css/*.css',
             ],
         }
     },

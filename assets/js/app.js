@@ -2,7 +2,7 @@
 import 'core-js/modules/es.promise';
 import 'core-js/modules/es.array.iterator';
 
-import '../css/app.pcss';
+
 
 // Add JS Loaded class to the body
 document.documentElement.classList.add('js-loaded');
