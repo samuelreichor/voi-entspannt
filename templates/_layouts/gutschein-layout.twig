@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="https://use.typekit.net/mzj3rwx.css">
         <title>{{pageTitle}}</title>
         <meta name="description" content="{{ pageDescription }}">
-        <link rel="icon" type="image/x-icon" href="{{siteUrl}}static/images/favicon/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="static/images/favicon/favicon.ico">
         <link rel="canonical" href="https://www.voi-entspannt.at">
-        <link rel="stylesheet" href="{{siteUrl}}static/css/styles.css">
+        <link rel="stylesheet" href="static/css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         {% include "_layouts/_partials/preconnects.twig" %}
@@ -30,7 +30,7 @@
         </main>
 
         {% include "_components/footer/footer.twig" only %}
-        <script src="{{ siteUrl }}static/js/navbar.js"></script>
+        <script src="static/js/navbar.js"></script>
         {{ craft.vite.script("assets/js/app.js") }}
     </body>
 </html>

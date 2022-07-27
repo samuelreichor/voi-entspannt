@@ -16,7 +16,7 @@ settings:
   previewMode: full
   restrictFiles: ''
   selectionLabel: 'Add a Background Image'
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   singleUploadLocationSource: 'volume:5cce6b80-a35c-4207-82e0-3940c9091376' # Images

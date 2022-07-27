@@ -1,4 +1,4 @@
-dateModified: 1658760534
+dateModified: 1658838802
 email:
   fromEmail: sami.reichoer@gmail.com
   fromName: $SITE_NAME
@@ -72,7 +72,6 @@ meta:
     268380d1-da19-45ad-af3e-96da19e5ba85: Datenschutz # Datenschutz
     509010ae-76d8-4d0a-ba38-9a5a004c6e8b: 'Info Image' # Info Image
     745244db-cd1b-4b14-ab0f-07d6ddcf070f: Home # Home
-    8352538e-0d17-48be-bf6d-c03a439cb40a: 'Template Images' # Template Images
     25416666-89ae-45f3-bdae-0b78a5309146: 'h2 Title Info Section' # h2 Title Info Section
     a1d469ad-3f70-49ce-aa72-447b35b47384: 'Image About' # Image About
     a5cbfbab-d6bd-4853-b176-faf454b6bf2a: SliderText # SliderText
@@ -86,7 +85,6 @@ meta:
     bf6b89d9-e068-4a04-9f43-1a7a2d42bd79: 'Link Destination' # Link Destination
     bfd38180-5ad7-4644-a0a0-598e5dbed5fa: Image # Image
     c5b7a7bd-25d9-46e8-aa20-0b2cbee36c42: 'Youtube Link' # Youtube Link
-    c5b55746-9b95-40a4-9e04-178618e02cff: Graphics # Graphics
     c50f1c8e-3b3c-429a-8e0d-ff677581fce0: SEO # SEO
     c93f785e-a2de-4be1-b982-2b15a9ecfb52: Home # Home
     cc7d01e7-6d4f-4329-8f74-68b700b031d0: 'Gutschein Section' # Gutschein Section
@@ -173,6 +171,23 @@ plugins:
     enabled: true
     licenseKey: $PLUGIN_SEOMATIC
     schemaVersion: 3.0.11
+  servd-asset-storage:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.5
+    settings:
+      adjustFeedmeLogs: ''
+      assetsEnvironment: ''
+      assetsEnvironmentOverwrite: ''
+      cacheClearMode: full
+      clearCachesOnSave: always
+      disableDynamic: ''
+      disableTransforms: ''
+      injectCors: ''
+      projectSlug: $SERVD_PROJECT_SLUG
+      securityKey: $SERVD_SECURITY_KEY
+      suppressWarnings: ''
+      useLocalVolumes: ''
   smith:
     edition: standard
     enabled: true

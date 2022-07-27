@@ -9,11 +9,11 @@
         <title>{{pageTitle}}</title>
         <meta name="description" content="{{ pageDescription }}"> 
         <link rel="canonical" href="https://www.voi-entspannt.at">
-        <link rel="icon" type="image/x-icon" href="{{siteUrl}}static/images/favicon/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="static/images/favicon/favicon.ico">
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/mzj3rwx.css">
-        <link rel="stylesheet" href="{{siteUrl}}static/css/styles.css">
+        <link rel="stylesheet" href="static/css/styles.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -44,9 +44,9 @@
         </main>
 
         {% include "_components/footer/footer.twig" only %}
-        <script src="{{ siteUrl }}static/js/navbar.js"></script>
-        <script src="{{ siteUrl }}static/js/slider.js"></script>
-        <script src="{{ siteUrl }}static/js/contact.js"></script>
+        <script src="static/js/navbar.js"></script>
+        <script src="static/js/slider.js"></script>
+        <script src="static/js/contact.js"></script>
         {{ craft.vite.script("assets/js/app.js") }}
     </body>
 </html>

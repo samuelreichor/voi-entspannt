@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "07e3184255fbff4fc4366662f459c896",
+    "content-hash": "24313bb64dd5c359cd6382f3d4839f22",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -2288,6 +2288,71 @@
             "time": "2021-12-09T09:40:50+00:00"
         },
         {
+            "name": "league/flysystem-aws-s3-v3",
+            "version": "1.0.30",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
+                "reference": "af286f291ebab6877bac0c359c6c2cb017eb061d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/af286f291ebab6877bac0c359c6c2cb017eb061d",
+                "reference": "af286f291ebab6877bac0c359c6c2cb017eb061d",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.20.0",
+                "league/flysystem": "^1.0.40",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "henrikbjorn/phpspec-code-coverage": "~1.0.1",
+                "phpspec/phpspec": "^2.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Flysystem\\AwsS3v3\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frank de Jonge",
+                    "email": "info@frenky.net"
+                }
+            ],
+            "description": "Flysystem adapter for the AWS S3 SDK v3.x",
+            "support": {
+                "issues": "https://github.com/thephpleague/flysystem-aws-s3-v3/issues",
+                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/1.0.30"
+            },
+            "funding": [
+                {
+                    "url": "https://offset.earth/frankdejonge",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/frankdejonge",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-07-02T13:51:38+00:00"
+        },
+        {
             "name": "league/mime-type-detection",
             "version": "1.11.0",
             "dist": {
@@ -4184,6 +4249,61 @@
                 "phar"
             ],
             "time": "2021-12-10T11:20:11+00:00"
+        },
+        {
+            "name": "servd/craft-asset-storage",
+            "version": "2.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/servdhost/craft-asset-storage.git",
+                "reference": "ba797778be2fa1da6042413610a843a2fbccce23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/servdhost/craft-asset-storage/zipball/ba797778be2fa1da6042413610a843a2fbccce23",
+                "reference": "ba797778be2fa1da6042413610a843a2fbccce23",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.5",
+                "league/flysystem-aws-s3-v3": "^1.0.28",
+                "yiisoft/yii2-redis": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Servd Assets and Helpers",
+                "handle": "servd-asset-storage",
+                "documentationUrl": "https://github.com/servdhost/craft-asset-storage"
+            },
+            "autoload": {
+                "psr-4": {
+                    "servd\\AssetStorage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Servd",
+                    "homepage": "https://servd.host/"
+                }
+            ],
+            "description": "Servd Asset Storage and Helpers integration for Craft CMS",
+            "keywords": [
+                "cms",
+                "craftcms",
+                "servd",
+                "yii2"
+            ],
+            "support": {
+                "docs": "https://github.com/servdhost/craft-asset-storage",
+                "email": "hello@servd.host",
+                "issues": "https://github.com/servdhost/craft-asset-storage/issues",
+                "source": "https://github.com/servdhost/craft-asset-storage"
+            },
+            "time": "2022-07-06T15:21:08+00:00"
         },
         {
             "name": "solspace/craft-freeform",
@@ -7041,6 +7161,80 @@
             "time": "2022-03-31T07:41:51+00:00"
         },
         {
+            "name": "yiisoft/yii2-redis",
+            "version": "2.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-redis.git",
+                "reference": "222c6a4340fdf5124f7fb101d026d98e48bf940e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-redis/zipball/222c6a4340fdf5124f7fb101d026d98e48bf940e",
+                "reference": "222c6a4340fdf5124f7fb101d026d98e48bf940e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "yiisoft/yii2": "~2.0.39"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "<7",
+                "yiisoft/yii2-dev": "~2.0.39"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\redis\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc"
+                }
+            ],
+            "description": "Redis Cache, Session and ActiveRecord for the Yii framework",
+            "keywords": [
+                "active-record",
+                "cache",
+                "redis",
+                "session",
+                "yii2"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-redis/issues",
+                "source": "https://github.com/yiisoft/yii2-redis",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/yiisoft",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/yiisoft",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-redis",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-01-11T12:50:32+00:00"
+        },
+        {
             "name": "yiisoft/yii2-swiftmailer",
             "version": "2.1.3",
             "dist": {
@@ -7880,5 +8074,5 @@
     "platform-overrides": {
         "php": "7.3.33"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

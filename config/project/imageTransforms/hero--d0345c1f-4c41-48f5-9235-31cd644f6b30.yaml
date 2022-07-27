@@ -1,9 +1,9 @@
-format: webp
+format: null
 handle: hero
 height: 900
 interlace: none
 mode: fit
 name: Hero
 position: center-center
-quality: null
+quality: 100
 width: 1400
