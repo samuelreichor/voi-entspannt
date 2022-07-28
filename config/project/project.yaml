@@ -1,4 +1,4 @@
-dateModified: 1658838802
+dateModified: 1659028742
 email:
   fromEmail: sami.reichoer@gmail.com
   fromName: $SITE_NAME
@@ -134,26 +134,26 @@ plugins:
       defer_js: ''
       disable_in_live_preview: ''
       dismiss: 'Got it!'
-      dismiss_on_scroll: ''
-      dismiss_on_timeout: ''
+      dismiss_on_scroll: '500'
+      dismiss_on_timeout: '0'
       excluded_categories: null
       excluded_entry_types: null
       expiry_days: '365'
       honour_do_not_track_header: ''
       layout: block
-      learn: 'Learn More'
+      learn: 'Mehr erfahren.'
       learn_more_link: 'https://voi-entspannt.at/datenschutz'
-      message: 'Diese Internetseite verwendet Cookies und Google Analytics für die Analyse und Statistik.'
+      message: 'Wir verwenden Cookies, um Ihnen die bestmögliche Nutzungserfahrung zu bieten. Sie stimmen der Nutzung von Cookies und unseren Datenschutzbestimmungen zu.'
       palette: default
-      palette_banner: '000'
+      palette_banner: '000000'
       palette_banner_text: ffffff
       palette_button: 37BFED
-      palette_button_text: fff
+      palette_button_text: '000000'
       palette_left_button_bg: f8e71c
       palette_left_button_text: '000000'
       palette_link: ffffff
-      position: top
-      preload_css: '1'
+      position: bottom
+      preload_css: ''
       revokable: ''
       secure_only: ''
       target: _blank
