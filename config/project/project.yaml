@@ -1,4 +1,4 @@
-dateModified: 1659028742
+dateModified: 1659034145
 email:
   fromEmail: sami.reichoer@gmail.com
   fromName: $SITE_NAME
@@ -186,7 +186,7 @@ plugins:
       injectCors: ''
       projectSlug: $SERVD_PROJECT_SLUG
       securityKey: $SERVD_SECURITY_KEY
-      suppressWarnings: ''
+      suppressWarnings: '1'
       useLocalVolumes: ''
   smith:
     edition: standard
@@ -205,7 +205,7 @@ plugins:
     enabled: true
     schemaVersion: 1.0.0
 system:
-  edition: pro
+  edition: solo
   live: true
   name: $SITE_NAME
   retryDuration: null
