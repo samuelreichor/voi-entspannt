@@ -7,18 +7,12 @@
 <body class="home-page">
 
   
-      {% set image = entry.heroImage.one() %}
-      <section class="hero" style="background-image: url('{{ image.getUrl( 'hero' ) }}')" >
-      
-        <div class="left-column content-hero">
-          <h1 class="h1-styling">{{entry.heroTitle}}</h1>
-        </div>
-        <div class="right-column content-hero"></div>
+      {% set heroImage = entry.heroImage.one() %}
+      <section class="hero" style="background-image: url('{{ heroImage.url }}')" >
+          <div class="heroText__wrapper">
+                  <h1 class="h1-styling ">{{entry.heroTitle}}</h1>
+          </div>
       </section>
-      
-
-     
-    
 
   <!-- Swiper 1 -->
   <div class="section-slider1-wrapper">
