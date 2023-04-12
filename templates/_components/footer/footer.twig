@@ -2,7 +2,6 @@
     <div class="container">
         <div class="row">
             <div class="footer-col">
-                <h4>Wichtige Links</h4>
                 <ul>
                     {% for link in footer.navLink.all() %}
                     {% set destination = link.linkDestination.one() %}
@@ -13,7 +12,6 @@
                 </ul>
             </div>
             <div class="footer-col">
-                <h4>Langweilige Links</h4>
                 <ul>
                     {% for linkFooter in footer.navLinkFooter.all() %}
                     {% set destinationFooter = linkFooter.linkDestinationFooter.one() %}
