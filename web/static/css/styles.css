@@ -36,7 +36,11 @@ header{
 .toggle-active{
   background-color: #fff;
   box-shadow: 0 3px 1rem rgba(0,0,0,.1);
-  min-height: 50vh;
+  min-height: 100svh;
+}
+
+.toggle-active .navbar-links{
+  padding-top: 20vh;
 }
 
 .navbar {
@@ -44,7 +48,7 @@ header{
   position: relative;
   justify-content: space-between;
   align-items: center;
-    height: 4rem;
+  height: 4rem;
   color: #181818;
   max-width: 1700px;
   margin: 0 auto;
@@ -543,7 +547,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #37BFED;
+    border: 2px solid #37BFED;
  }
 
 
@@ -551,7 +555,7 @@ header{
     
     background-color: #F9F9F9;
     color: #37BFED;
-    border: 3px solid #37BFED;
+    border: 2px solid #37BFED;
     font-weight: 500;
  }
 
@@ -570,7 +574,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid #37BFED;
+  border: 2px solid #37BFED;
 }
 
 
@@ -578,7 +582,7 @@ header{
   
   background-color: #F9F9F9;
   color: #37BFED;
-  border: 3px solid #37BFED;
+  border: 2px solid #37BFED;
   font-weight: 500;
 }
 
@@ -697,7 +701,7 @@ header{
 .btn-lined{
   width: 80%;
   height: 3rem;
-  border: 3px solid #37BFED;
+  border: 2px solid #37BFED;
   font-weight: 500;
   background-color: #F9F9F9;
   border-radius: 13px;
@@ -851,7 +855,7 @@ header{
       border-radius: 50%;
       margin: 1rem;
       
-      border: 3px solid #37BFED;
+      border: 2px solid #37BFED;
       display: flex;
       justify-content: center;
       justify-items: center;
@@ -1196,7 +1200,7 @@ textarea{
 .btn-contact-filled{
   width: 100%;
   height: 3rem;
-  border: 3px solid #37BFED;
+  border: 2px solid #37BFED;
   background-color: #37BFED;
   border-radius: 13px;
   margin-top: 1rem;
@@ -1213,7 +1217,7 @@ textarea{
   
   background-color: #F9F9F9;
   color: #37BFED;
-  border: 3px solid #37BFED;
+  border: 2px solid #37BFED;
   font-weight: 500;
 }
 
